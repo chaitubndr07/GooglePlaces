@@ -18,6 +18,8 @@
 		123CDB0F174103FF00839789 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 123CDB0E174103FF00839789 /* Default-568h@2x.png */; };
 		123CDB12174103FF00839789 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 123CDB10174103FF00839789 /* MainStoryboard.storyboard */; };
 		123CDB15174103FF00839789 /* XYZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 123CDB14174103FF00839789 /* XYZViewController.m */; };
+		123CDB1C174105B300839789 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123CDB1B174105B300839789 /* MapKit.framework */; };
+		123CDB1E174105CC00839789 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123CDB1D174105CC00839789 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		123CDB11174103FF00839789 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		123CDB13174103FF00839789 /* XYZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYZViewController.h; sourceTree = "<group>"; };
 		123CDB14174103FF00839789 /* XYZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYZViewController.m; sourceTree = "<group>"; };
+		123CDB1B174105B300839789 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		123CDB1D174105CC00839789 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				123CDB1E174105CC00839789 /* CoreLocation.framework in Frameworks */,
+				123CDB1C174105B300839789 /* MapKit.framework in Frameworks */,
 				123CDAF9174103FE00839789 /* UIKit.framework in Frameworks */,
 				123CDAFB174103FE00839789 /* Foundation.framework in Frameworks */,
 				123CDAFD174103FE00839789 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +62,8 @@
 		123CDAEC174103FE00839789 = {
 			isa = PBXGroup;
 			children = (
+				123CDB1D174105CC00839789 /* CoreLocation.framework */,
+				123CDB1B174105B300839789 /* MapKit.framework */,
 				123CDAFE174103FE00839789 /* GooglePlaces */,
 				123CDAF7174103FE00839789 /* Frameworks */,
 				123CDAF6174103FE00839789 /* Products */,
